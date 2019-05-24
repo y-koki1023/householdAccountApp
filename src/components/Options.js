@@ -1,11 +1,12 @@
 import React from 'react'
+import Button from '@material-ui/core/Button';
 function Options(props){
     return(
         <div>
-            <button onClick = {() => props.clicked(1)}>Food</button>
-            <button onClick = {() => props.clicked(2)}>Hobby</button>
-            <button onClick = {() => props.clicked(3)}>Residence</button>
-            <button onClick = {() => props.clicked(4)}>Etc</button>
+            <Button onClick = {() => props.clicked(1)}>Food</Button>
+            <Button onClick = {() => props.clicked(2)}>Hobby</Button>
+            <Button onClick = {() => props.clicked(3)}>Residence</Button>
+            <Button onClick = {() => props.clicked(4)}>Etc</Button>
         </div>
     )
 }
